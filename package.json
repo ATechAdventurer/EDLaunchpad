@@ -4,7 +4,9 @@
   "description": "A Simple program that will allow you to map keys for the game Elite Dangerous on a Novation Launchpad. Currenly only supporting the Novation LaunchPad Mini",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "docgen": "node docgen.js"
   },
   "keywords": [
     "robotjs",
