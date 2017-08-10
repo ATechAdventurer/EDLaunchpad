@@ -11,8 +11,10 @@ midiConnector.on("ready", function(launchpad) {
       console.log(config.keys[getFriendlyNote(button.x, button.y)].key);
     }
     if(config.keys[getFriendlyNote(button.x, button.y).key] !== "_")
-      if(config.keys[getFriendlyNote(button.x, button.y)].action == "tap")
+      if(config.keys[getFriendlyNote(button.x, button.y)].action == "tap"){
+        button.light(this.colors.red.high);
         robot.keyTap(config.keys[getFriendlyNote(button.x, button.y)].key);
+      }
       else if(config.keys[getFriendlyNote(button.x, button.y)].action == "press"){
         robot.keyToggle(config.keys[getFriendlyNote(button.x, button.y)].key, "down");
       }
