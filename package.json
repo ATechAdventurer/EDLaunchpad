@@ -1,0 +1,22 @@
+{
+  "name": "launchpad4ed",
+  "version": "1.0.0",
+  "description": "A Simple program that will allow you to map keys for the game Elite Dangerous on a Novation Launchpad. Currenly only supporting the Novation LaunchPad Mini",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "robotjs",
+    "elitedangerous",
+    "launchpad",
+    "novation",
+    "midi"
+  ],
+  "author": "Cameron Steele",
+  "license": "ISC",
+  "dependencies": {
+    "midi-launchpad": "^1.0.3",
+    "robotjs": "^0.4.7"
+  }
+}
